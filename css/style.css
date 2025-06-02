@@ -1,0 +1,36 @@
+/* 1. Mudança de cor dos links */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lemonchiffon; /* Usa lemonchiffon, pois "lemon" isolado não é uma cor válida */
+}
+
+/* 2. Customização de parágrafos */
+/* Todos os parágrafos terão fonte Arial */
+p {
+    font-family: Arial, sans-serif;
+}
+
+/* Parágrafos logo após um h1 ficarão em negrito */
+h1 + p {
+    font-weight: bold;
+}
+
+/* 3. Estilização da classe .destaque */
+/* Por padrão, a classe destaque usa fonte Arial */
+.destaque {
+    font-family: Arial, sans-serif;
+}
+
+/* Se for um parágrafo com a classe destaque, ficará em negrito */
+p.destaque {
+    font-weight: bold;
+}
+
+/* Se for um <strong> com a classe destaque, ficará em vermelho */
+strong.destaque {
+    color: red;
+}
