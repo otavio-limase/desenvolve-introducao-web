@@ -1,0 +1,81 @@
+/* Layout base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Introdução */
+.intro {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* Flexbox — benefícios */
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 1em 0;
+}
+
+.benefit-text {
+  width: 70%;
+}
+
+.benefit-title {
+  width: 30%;
+  text-align: center;
+}
+
+/* Flexbox — participação */
+.participation {
+  display: flex;
+  border-bottom: 2px solid #333;
+  padding: 1em 0;
+}
+
+.participation-item {
+  width: 50%;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Flexbox — rodapé */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.footer a {
+  flex: 1 0 100px;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid #444;
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+}
+
+@media (max-width: 600px) {
+  .benefits, .participation {
+    flex-direction: column;
+  }
+
+  .benefit-text, .benefit-title, .participation-item {
+    width: 100%;
+  }
+}
+
