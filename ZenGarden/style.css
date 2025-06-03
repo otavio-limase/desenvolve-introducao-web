@@ -4,34 +4,65 @@
    - Destaque: #2e8b57
 */
 
+/* ----------------------- */
+/* 1. Aspectos gerais */
+/* ----------------------- */
+
 body {
+    width: 1200px; /* Tamanho fixo da página */
+    margin: 0 auto;
     background-color: #f0f4f8;
     color: #333333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-    color: #2e8b57;
+p {
+    text-indent: 1em;
+}
+
+/* ----------------------- */
+/* 2. Títulos */
+/* ----------------------- */
+
+h1 {
+    font-size: 1.8rem;
     text-align: center;
 }
 
-a {
+h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
     color: #2e8b57;
-    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Títulos dentro do header ficam brancos */
+header h1,
+header h2 {
+    color: white;
 }
 
-.page-wrapper {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+/* ----------------------- */
+/* 3. Seções de resumo e principal */
+/* ----------------------- */
+
+/* Seção de resumo */
+.summary {
+    text-align: center;
 }
+
+/* Seção principal */
+.main p {
+    line-height: 1.5;
+}
+
+/* ----------------------- */
+/* 4. Header e Footer */
+/* ----------------------- */
 
 header {
     background-color: #2e8b57;
@@ -47,10 +78,33 @@ footer {
     padding: 10px;
 }
 
+/* ----------------------- */
+/* 5. Sidebar */
+/* ----------------------- */
+
 .sidebar {
     background-color: #dce9e2;
     padding: 15px;
     border-radius: 5px;
 }
 
+/* ----------------------- */
+/* 6. Links */
+/* ----------------------- */
 
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------- */
+/* 7. Abreviaturas */
+/* ----------------------- */
+
+abbr {
+    font-variant: small-caps;
+}
