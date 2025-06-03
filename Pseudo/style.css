@@ -1,0 +1,41 @@
+/* Paleta:
+   - Cor destaque: #2e8b57
+   - Cor hover: #246b45
+*/
+
+/* 1. Links */
+a {
+  color: #2e8b57;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #246b45;
+}
+
+a:visited {
+  font-weight: normal;
+  color: #2e8b57;
+}
+
+/* 2. Primeira letra do primeiro parágrafo da seção principal */
+.main p:first-of-type::first-letter {
+  font-size: 300%;
+  font-family: 'Georgia', serif;
+  float: left;
+  padding-right: 0.2em;
+  line-height: 1;
+  color: #2e8b57;
+}
+
+/* 3. Separador de itens no menu de design */
+
+.design-selection ul li {
+  border-top: 1px solid #333;
+  padding: 0.5em 0;
+}
+
+.design-selection ul li:last-child {
+  border-bottom: 1px solid #333;
+}
