@@ -1,0 +1,149 @@
+/* Paleta:
+   - Fundo: #f0f4f8
+   - Texto: #333333
+   - Destaque: #2e8b57
+*/
+
+/* ----------------------- */
+/* 1. Diretrizes gerais */
+/* ----------------------- */
+
+body {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #f0f4f8;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.intro {
+    height: 550px;
+}
+
+/* Remove o container #design-archives */
+#design-archives {
+    display: none;
+}
+
+/* ----------------------- */
+/* 2. Cabeçalho */
+/* ----------------------- */
+
+header {
+    background-color: #333333; /* Fundo escuro */
+    color: white;               /* Texto claro */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em; /* Espaço entre título e subtítulo */
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-left: 1em; /* Espaçamento lateral no título */
+}
+
+header h2 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* ----------------------- */
+/* 3. Títulos gerais */
+/* ----------------------- */
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #2e8b57;
+}
+
+/* ----------------------- */
+/* 4. Seções */
+/* ----------------------- */
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+/* ----------------------- */
+/* 5. Sidebar e menus */
+/* ----------------------- */
+
+.sidebar {
+    background-color: #dce9e2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    text-align: center; /* Centraliza os itens */
+}
+
+.sidebar li {
+    margin-bottom: 1em; /* Espaçamento entre itens */
+}
+
+/* ----------------------- */
+/* 6. Links */
+/* ----------------------- */
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------- */
+/* 7. Abreviações */
+/* ----------------------- */
+
+abbr {
+    font-variant: small-caps;
+}
+
+/* ----------------------- */
+/* 8. Rodapé */
+/* ----------------------- */
+
+footer {
+    background-color: white;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+    margin: 4%; /* Espaçamento externo */
+}
+
+/* Links do rodapé como caixas */
+footer a {
+    display: inline-block;
+    border: 2px solid #333333;
+    padding: 0.5em;
+    margin: 0.3em;
+    color: #333333;
+}
+
+footer a:hover {
+    background-color: #333333;
+    color: white;
+}
