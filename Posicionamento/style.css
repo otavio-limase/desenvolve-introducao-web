@@ -1,0 +1,192 @@
+/* Paleta:
+   - Fundo: #f0f4f8
+   - Texto: #333333
+   - Destaque: #2e8b57
+*/
+
+/* ----------------------- */
+/* 1. Estrutura Geral */
+/* ----------------------- */
+
+body {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #f0f4f8;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-wrapper {
+    position: relative; /* Definido como referência para posicionamento */
+}
+
+p {
+    text-indent: 1em;
+}
+
+/* ----------------------- */
+/* 2. Introdução */
+/* ----------------------- */
+
+.intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none; /* Continua oculto */
+}
+
+/* ----------------------- */
+/* 3. Cabeçalho */
+/* ----------------------- */
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    padding-left: 1em;
+}
+
+header h2 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* ----------------------- */
+/* 4. Títulos */
+/* ----------------------- */
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #2e8b57;
+}
+
+/* ----------------------- */
+/* 5. Seções */
+/* ----------------------- */
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+/* ----------------------- */
+/* 6. Painel Explanation */
+/* ----------------------- */
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+/* ----------------------- */
+/* 7. Menu de Designs (Design Selection) */
+/* ----------------------- */
+
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    width: 33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #dce9e2;
+    border-radius: 5px;
+}
+
+.design-selection ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.design-selection li {
+    margin-bottom: 1em;
+}
+
+/* ----------------------- */
+/* 8. Sidebar (Outros menus) */
+/* ----------------------- */
+
+.sidebar {
+    background-color: #dce9e2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+}
+
+/* ----------------------- */
+/* 9. Links */
+/* ----------------------- */
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------- */
+/* 10. Abreviaturas */
+/* ----------------------- */
+
+abbr {
+    font-variant: small-caps;
+}
+
+/* ----------------------- */
+/* 11. Rodapé */
+/* ----------------------- */
+
+footer {
+    background-color: white;
+    color: #333333;
+    text-align: center;
+    padding: 10px;
+    margin: 4%;
+}
+
+footer a {
+    display: inline-block;
+    border: 2px solid #333333;
+    padding: 0.5em;
+    margin: 0.3em;
+    color: #333333;
+}
+
+footer a:hover {
+    background-color: #333333;
+    color: white;
+}
