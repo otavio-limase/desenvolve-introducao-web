@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum Vitae – Otávio Lima de Andrade</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <ul class="nav-list">
+      <li><a href="#apresentacao">Apresentação</a></li>
+      <li><a href="#educacao">Educação</a></li>
+      <li><a href="#certificacoes">Certificações</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#rodape">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER -->
+  <header id="apresentacao">
+    <h1>Otávio Lima de Andrade</h1>
+    <img src="foto.jpg" alt="Foto de [SEU_NOME_AQUI]" />
+    <p>
+      Sou um entusiasta da tecnologia com forte interesse em desenvolvimento web e soluções criativas. Atualmente, busco oportunidades que me permitam aplicar meus conhecimentos em HTML, CSS e lógica de programação, contribuindo com projetos inovadores e em constante evolução. Tenho facilidade em aprender, sou comprometido com resultados e estou sempre em busca de novos desafios que me ajudem a crescer profissionalmente.
+    </p>
+    <div class="contact">
+      <p>Email: <a href="mailto:seuemail@exemplo.com">otavio.limase@gmail.com</a></p>
+      <p>Cidade: Itabira</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- EDUCAÇÃO -->
+    <section id="educacao">
+      <h2>Educação</h2>
+
+      <article class="entry">
+        <h3>Universidade Federal de Itajubá (UNIFEI)</h3>
+        <p>Bacharelado em Engenharia da Computação</p>
+        <p>Ano de conclusão: 2029 (previsto)</p>
+      </article>
+
+      <!-- Duplicar <article class="entry"> conforme necessário -->
+
+    </section>
+
+    <!-- CERTIFICAÇÕES -->
+    <section id="certificacoes">
+      <h2>Certificações</h2>
+
+      <article class="entry">
+        <p><strong>Data Science - Santander TECH</strong> — 40h — 2024</p>
+      </article>
+
+        <article class="entry">
+        <p><strong>Estatística - ADA</strong> — 6h — 2024</p>
+      </article>
+
+        <article class="entry">
+        <p><strong>Fundamentos de Ethical Hacking</strong> — 24h — 2024</p>
+      </article>
+
+        <article class="entry">
+        <p><strong>Back-end em Node.js</strong> — 23h — 2024</p>
+      </article>
+    </section>
+
+    <!-- EXPERIÊNCIA -->
+    <section id="experiencia">
+      <h2>Experiência Profissional</h2>
+
+      <article class="entry">
+        <h3>Serviços Gerais</h3>
+        <h4>Supermercado Nossa Senhora do Rosário</h4>
+        <p>Período: 2013 – 2023</p>
+        <ul>
+          <li>Atendimento ao cliente.</li>
+          <li>Controle de estoque.</li>
+          <li>Controle de caixa e serviços bancários.</li>
+        </ul>
+      </article>
+
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
+      <ul class="skills-list">
+        <li>pacote Adobe</li>
+        <li>C++</li>
+        <li>JavaScript Básico</li>
+        <li>Office Intermediário</li>
+        <li>Inglês intermediário</li>
+        <li>Resolução de Problemas</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="rodape">
+    <ul>
+      <li><a href="https://github.com/otavio-limase" target="_blank">GitHub</a></li>
+    </ul>
+    <p>&copy; <span id="2025"></span> Otávio Lima de Andrade. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    // Atualiza automaticamente o ano no copyright
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
